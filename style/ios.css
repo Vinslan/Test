@@ -1,0 +1,39 @@
+.ios_welcome{
+    margin-top: 50px;
+}
+
+
+.doc{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    width: 300px;
+    height: 90%;
+    max-height: 500px;
+    border-radius: 10px;
+    box-shadow: 10px 5px 5px rgb(211, 211, 211);
+    text-align: center;
+    padding-bottom: 120px;
+}
+
+.doc:hover{
+    transform: scale(1.01);
+}
+
+
+
+.builds a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.doc_block{
+    margin-top: 150px;
+}
+
+.builds{
+    display: grid;
+    grid-template-columns: repeat( 3, 1fr);
+}
